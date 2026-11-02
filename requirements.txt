@@ -1,0 +1,32 @@
+# Core PyTorch and Transformers
+torch>=2.2.0
+torchvision>=0.17.0
+transformers>=4.40.0,<5.0.0
+accelerate>=0.28.0
+
+# Depth Anything 3 (DA3) Ecosystem
+depth-anything-3>=0.1.1
+omegaconf>=2.4.0
+addict>=2.4.0
+pycolmap>=4.2.0
+evo>=1.38.0
+e3nn>=0.6.0
+moviepy<2.0.0
+plyfile>=1.1.0
+pillow-heif>=1.8.0
+
+# Image & Scientific processing
+numpy>=1.26.0,<2.0.0
+Pillow>=10.0.0
+opencv-python>=4.9.0
+matplotlib>=3.8.0
+scipy>=1.12.0
+
+# 3D Point Cloud & Mesh
+open3d>=0.18.0
+trimesh>=4.0.0
+
+# Web GUI & Video IO
+gradio>=4.0.0,<=6.30.0
+imageio>=2.34.0
+imageio-ffmpeg>=0.4.9

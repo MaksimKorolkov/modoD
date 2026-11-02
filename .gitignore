@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+
+# Output directories & generated files
+web_outputs/
+cli_output/
+test_output/
+output/
+test_glb/
+*.ply
+*.obj
+*.glb
+*.gif
+*.mp4
+
+# Local models cache
+models/
+.cache/
+
+# Environment and secrets
+.env
+*.log
+
+# OS & IDE
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
